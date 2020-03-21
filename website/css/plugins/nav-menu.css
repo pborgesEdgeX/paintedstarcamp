@@ -4,7 +4,7 @@
 
 header{ box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); transition: all 0.5s ease 0s; position: relative; z-index: 99999; }
 
-.navbar-brand img{ max-height: 43px; transition-duration: 0.5s; }
+.navbar-brand img{ max-height: 65px; transition-duration: 0.5s; }
 .navbar-header-custom{ padding: 22px 0 20px 0; }
 .navbar-default{ transition: all 0.5s ease 0s; -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.2); -ms-box-shadow: 0 0 3px rgba(0, 0, 0, 0.2); box-shadow: 0 0 3px rgba(0, 0, 0, 0.2); }
 .navbar-default .container, .navbar-default .container-fluid{ position: relative; }
@@ -90,7 +90,7 @@ header{ box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); transition: all 0.5s ease 0s;
 
 	header.scrollHeader .navbar-default{ position: fixed; top: 0; z-index: 99; width: 100%; background: #fff; left: 0; transition: all 0.2s ease 0s;  -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.2); -ms-box-shadow: 0 0 3px rgba(0, 0, 0, 0.2); box-shadow: 0 0 3px rgba(0, 0, 0, 0.2); }
 	.wrapper-boxed .scrollHeader .navbar-default{ left: 0; margin: 0 auto; max-width: 1200px; right: 0; }
-	.scrollHeader .navbar-brand img{ max-height: 35px; transition-duration: 0.5s; }
+	.scrollHeader .navbar-brand img{ max-height: 65px; transition-duration: 0.5s; }
 	.scrollHeader .navbar-header-custom{ padding: 10px 0; transition-duration: 0.5s; }
 	.navbar-nav .megamenu{ margin: 0; padding: 30px 15px; right: 0; width: 100%; }
 	.navbar .megamenu > li{ margin: 0; float: left; }
