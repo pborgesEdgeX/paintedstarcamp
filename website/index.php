@@ -587,9 +587,13 @@
                                     <div class="col-md-12">
                                         <select id="age"  name="age" class="required" style="height:90%;" >
                                             <option value="" disabled selected>Age: </option>
+                                            <option value="four">4</option>
+                                            <option value="five">5</option>
+                                            <option value="six">6</option>
                                             <option value="seven">7</option>
                                             <option value="eight">8</option>
                                             <option value="nine">9</option>
+                                            <option value="ten">10</option>
                                             <option value="eleven">11</option>
                                             <option value="twelve">12</option>
                                             <option value="thirteen">13</option>
@@ -599,15 +603,17 @@
                                     </div>
 
                                     <div class="col-md-12" style="margin-top: 3%;">
-                                        <select id="week"  name="week" style="height:90%;">
+                                        <select id="week"  name="week" style="height:90%;" onchange="myFunction(this.value)">
                                             <option value="" disabled selected>Camp Week</option>
-                                            <option value="seven">June 22nd - 26th</option>
-                                            <option value="eight">July 6th - 10th</option>
-                                            <option value="nine">July 13th - 17th</option>
-                                            <option value="ten">July 20th - 24th</option>
-                                            <option value="eleven">July 27th - 31st</option>
+                                            <option value="June 22nd - 26th">June 22nd - 26th</option>
+                                            <option value="July 6th - 10th">July 6th - 10th</option>
+                                            <option value="July 13th - 17th">July 13th - 17th</option>
+                                            <option value="July 20th - 24th">July 20th - 24th</option>
+                                            <option value="July 27th - 31st">July 27th - 31st</option>
                                         </select>
                                     </div>
+                                    <p id="error_fully_booked" style="color:red;"> Unfortunately, we are fully booked for this week but we are happy to enroll you in our Waitlist! All you have to do is complete and submit this form.</p>
+
                                     <div class="col-md-12" style="margin-top: 3%;">
                                         <label for="vehicle1" style="color:white; text-decoration: underline;" data-toggle="modal" data-target="#myModal">I agree with Terms & Conditions</label>
                                         <!-- Modal -->
@@ -776,7 +782,6 @@
                             <h4 class="font-size46 sm-font-size42 xs-font-size34 font-weight-900 margin-10px-bottom">Open Camp Sessions</h4>
 
                         <div class="bg-img padding-30px-all" data-background="img/content/06.jpg">
-                            <h4 class="font-size24 font-weight-800">Open Camp Sessions</h4>
                             <ul class="list-style2">
                                 <li>June<span class="float-right text-theme-color">22nd - 26th </span> </li>
                                 <li>July<span class="float-right text-theme-color"> 6th - 10th</span> </li>
@@ -784,7 +789,8 @@
                                 <li>July<span class="float-right text-theme-color">20th - 24th</span> </li>
                                 <li>July<span class="float-right text-theme-color">27th - 31st</span> </li>
                             </ul>
-                            <h4 class="font-size24 font-weight-800">Address: 11590 NEW AVENUE, GILROY, CA</h4>
+                            <h4 class="font-size24 font-weight-800"><br>Address: <br><a style="color:#3f93d3;">11590 NEW AVENUE, GILROY, CA</a></h4>
+                            <div style="position:relative;"><h4 class="font-size24 font-weight-800"><br>Pricing: <br><a style="color:#3f93d3;">$425.00 per Student ($150 Non-refundable Deposit Required)</a></h4></div>
                         </div>
 
                         </div>
